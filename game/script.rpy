@@ -32,7 +32,6 @@ label start:
     jump location_choice
 
 label location_choice:
-    show black
 
     # Show an imagemap.
     window hide None
@@ -135,25 +134,7 @@ label delphi:
 
     TODO "LORE GOES HERE YOU DINGUS"
 
-    menu:
-        "Trade":
-            jump delphi_trade
-        "Government":
-            jump delphi_government
-        "Done":
-            jump location_choice
-
-label delphi_trade:
-    
-    TODO "LORE GOES HERE YOU DINGUS"
-
-    jump delphi
-
-label delphi_government:
-
-    TODO "LORE GOES HERE YOU DINGUS"
-
-    jump delphi
+    jump location_choice
 
 ################
 #
@@ -193,29 +174,6 @@ label heimdall:
     TODO "LORE GOES HERE YOU DINGUS"
 
     jump location_choice
-
-################
-#
-# The Maw
-#
-################
-label the_maw:
-    show bg the_maw
-    with dissolve
-
-    "Some call The Maw a horrible pit that descends down into hell itself, while others explain the phenomenon as just an extraordinary sink hole."
-
-    "The lore of the land tells a tale about the demon-god Vaxxak and Ter’Ral being engaged in a decade long conflict."
-
-    "This conflict raged so long and so brutal that it began to tear civilization apart as they began to side with one of the two gods."
-
-    "Xemex foresaw civilization's end from the void of space above, and joined in power with the other deities to send a star crashing down onto the two beings as they locked in a physical bout."
-
-    "The result sent the two dissipating into the air as star dust. The deities reanimated themselves over several centuries, and the star left behind the enormous pit known as The Maw."
-
-    jump location_choice
-
-
 
 ################
 #
@@ -274,6 +232,27 @@ label sydnia:
     with dissolve
 
     TODO "LORE GOES HERE YOU DINGUS"
+
+    jump location_choice
+
+################
+#
+# The Maw
+#
+################
+label the_maw:
+    show bg the_maw
+    with dissolve
+
+    "Some call The Maw a horrible pit that descends down into hell itself, while others explain the phenomenon as just an extraordinary sink hole."
+
+    "The lore of the land tells a tale about the demon-god Vaxxak and Ter’Ral being engaged in a decade long conflict."
+
+    "This conflict raged so long and so brutal that it began to tear civilization apart as they began to side with one of the two gods."
+
+    "Xemex foresaw civilization's end from the void of space above, and joined in power with the other deities to send a star crashing down onto the two beings as they locked in a physical bout."
+
+    "The result sent the two dissipating into the air as star dust. The deities reanimated themselves over several centuries, and the star left behind the enormous pit known as The Maw."
 
     jump location_choice
 

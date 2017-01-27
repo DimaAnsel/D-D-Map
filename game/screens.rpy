@@ -1470,6 +1470,17 @@ style slider_pref_slider:
 ################
 # Image definitions
 #############
-image bg colchus   = "bg_colchus.png"
-image bg phendrana = "bg_phendrana.png"
-image black = "#000"
+image bg asmara      = "placeholder.png" # TODO: remove these
+image bg carvera     = "placeholder.png"
+image bg colchus     = "bg_colchus.png"
+image bg delphi      = "placeholder.png"
+image bg exxtal      = "placeholder.png"
+image bg folium      = "placeholder.png"
+image bg heimdall    = "placeholder.png"
+image bg phendrana   = "bg_phendrana.png"
+image bg shoal       = "placeholder.png"
+image bg sludge_town = "placeholder.png"
+image bg sydnia      = "placeholder.png"
+image bg the_maw     = "placeholder.png"
+image bg the_tavern  = "placeholder.png"
+image bg vermillione = "placeholder.png"
