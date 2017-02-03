@@ -11,7 +11,7 @@ screen main_imagemap:
 
         hotspot (736, 274, 41, 50)  action Return("asmara")      alt "Asmara"
         hotspot (605, 642, 93, 71)  action Return("carvera")     alt "Carvera"
-        hotspot (480, 272, 51, 42)  action Return("colchus")     alt "Colchus"
+        hotspot (454, 308, 110, 37)  action Return("colchus")     alt "Colchus"
         hotspot (577, 235, 84, 65)  action Return("delphi")      alt "Delphi"
         hotspot (802, 314, 84, 70)  action Return("exxtal")      alt "Exxtal"
         hotspot (529, 465, 68, 55)  action Return("folium")      alt "Folium"
